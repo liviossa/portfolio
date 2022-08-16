@@ -138,8 +138,13 @@ html[data-theme="light"] {
   --bg-background-color: #2121214a;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
   a {
     display: none;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

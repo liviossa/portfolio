@@ -1,5 +1,4 @@
 import React from "react";
-
 import Languages from "../../img/Group14.svg";
 export function About() {
   return (
