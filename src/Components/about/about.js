@@ -3,8 +3,13 @@ import Languages from "../../img/Group14.svg";
 export function About() {
   return (
     <div className="about-container">
-      <div className="block-1 bold bg block-heading">About Me</div>
-      <div className="block-2 bg">
+      <div className="block-1 bold bg block-heading">
+        <p style={{ margin: 0 }}>About Me</p>
+      </div>
+      <div
+        className="block-2 bg"
+        style={{ padding: 30, boxSizing: "border-box" }}
+      >
         <p className="year bold">2022</p>
         Masters in Acquisitions-Distribution-Logistics <br />
         (in process...)
